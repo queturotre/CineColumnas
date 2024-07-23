@@ -87,6 +87,7 @@ public class Main {
         }
         System.out.println("Total recaudado: $"+total);
     }
+    // Falta definir las condiciones del programa cuando la sala es muy grande, más de 10x10
 }
 /*
  * Hecho por Ricardo García tras entender que esto es lo que hubiera tenido que entregarle a la profe Mireya en segundo semestre de haber entendido programación en ese entonces
