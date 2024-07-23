@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main (String args[]){
         Scanner miguel = new Scanner(System.in);
-        char[][] sala = new char [5][5]; // La sala de cine es una matriz.
+        char[][] sala = new char [8][5]; // La sala de cine es una matriz.
         int puestosTotales = sala.length * sala[0].length;
         int filas = 0;
         int columnas = 0;
@@ -57,7 +57,7 @@ public class Main {
                 System.out.println("Tu puesto ha sido reservado.\n");
 
                 if (sala.length < 5 || filas < sala.length-1){
-                    totalPorReserva += estandar; // La silla es una estándar de 7000 pesos
+                    totalPorReserva += estandar; // La silla es una estándar de 7000 pesos. Sólo hay puestos preferenciales si la sala tiene más de 5 filas
                 } else {
                     totalPorReserva += preferencial; // La silla es una preferencial de 9000 pesos
                 }
